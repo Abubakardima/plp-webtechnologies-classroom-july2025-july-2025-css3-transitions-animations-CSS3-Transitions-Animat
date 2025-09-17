@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sports Activity Interactive Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>⚽ Sports Activity Zone</h1>
+    <p>Bringing energy to the web with CSS & JavaScript!</p>
+  </header>
+
+  <!-- Part 1: Buttons with CSS transitions -->
+  <section id="part1">
+    <h2>🏃 Part 1: CSS Transitions & Animations</h2>
+    <button class="sport-btn">Hover Me</button>
+    <div class="ball"></div>
+  </section>
+
+  <!-- Part 2: JavaScript Functions -->
+  <section id="part2">
+    <h2>🏀 Part 2: JavaScript Functions</h2>
+    <p>Click the button to add score:</p>
+    <button onclick="updateScore(2)">+2 Points</button>
+    <button onclick="updateScore(3)">+3 Points</button>
+    <p>Current Score: <span id="score">0</span></p>
+  </section>
+
+  <!-- Part 3: Combining CSS & JS -->
+  <section id="part3">
+    <h2>🎾 Part 3: CSS + JavaScript</h2>
+    <p>Click the card to flip:</p>
+    <div class="card" onclick="flipCard()">
+      <div class="card-inner" id="sportsCard">
+        <div class="card-front">🏐 Volleyball</div>
+        <div class="card-back">Fun, Fast, Team Spirit!</div>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
